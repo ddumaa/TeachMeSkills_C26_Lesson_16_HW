@@ -52,6 +52,7 @@ public class Runner {
 
         System.out.println("-----------------");
         String k = baseClient.keySet().toString();
+        //Collection - что это? я понимаю это класс но.... я смог так вывод сделать, с помощью подсказки но почему?)
         Collection<Client> v = baseClient.values();
         System.out.println(k);
         System.out.println(v);
